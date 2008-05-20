@@ -1,0 +1,5 @@
+#if($Flash.message)
+<div id="message">
+    $Flash.message
+</div>
+#end

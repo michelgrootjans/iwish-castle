@@ -1,0 +1,3 @@
+#blockcomponent(SecurityComponent with "role=Administrator")
+Only for Administrators
+#end

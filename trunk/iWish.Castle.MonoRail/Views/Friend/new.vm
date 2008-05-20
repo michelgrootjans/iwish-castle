@@ -1,0 +1,18 @@
+<div class="operations">
+    <a href="sendinvitation.rails?WishId=1">Send Invitation</a>
+</div>
+<br />
+<table class="detail">
+    <tr>
+        <td>email</td>
+        <td><input id="Text1" type="text" /></td>
+    </tr>
+    <tr>
+        <td>First Name</td>
+        <td><input id="Text2" type="text" /></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input id="Text3" type="text" /></td>
+    </tr>
+</table>

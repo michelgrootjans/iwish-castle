@@ -1,0 +1,23 @@
+<div class="operations">
+    <a href="new.rails">Invite a friend ...</a>
+</div>
+<br />
+<table class="list">
+    <thead>
+    <thead>
+        <th colspan="2">My friends:</th>
+    </thead>
+    </thead>
+    <tr>
+        <td>Batman</td>
+        <td><a href="friendwishes.rails?FriendId=1">View wishes</a></td>
+    </tr>
+    <tr>
+        <td>Mega Mindy</td>
+        <td><a href="friendwishes.rails?FriendId=2">View wishes</a></td>
+    </tr>
+    <tr>
+        <td>Santa claus</td>
+        <td><a href="friendwishes.rails?FriendId=3">View wishes</a></td>
+    </tr>
+</table>

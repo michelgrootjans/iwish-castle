@@ -1,0 +1,19 @@
+<a href="../Security/AdministratorsOnly.rails">test</a>
+ - 
+<a href="../Security/AdministratorsOnly2.rails">test2</a>
+
+<table width="100%" border="1" cellpadding="2" cellspacing="0">
+<tr>
+    <th>Role</th>
+</tr>
+#foreach($role in $user.Roles)
+<tr>
+    <td align="center">$role.Name</td>
+</tr>
+#end
+</table>
+
+<form action="GimmeThisRole.rails" method="post" >
+    <input type="text" name="roleName" value="Administrator" />
+    <input type="submit" value="Gimme this role" />
+</form>

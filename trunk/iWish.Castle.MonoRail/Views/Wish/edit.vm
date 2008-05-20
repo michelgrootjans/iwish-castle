@@ -1,0 +1,22 @@
+<br />
+<form action="update.rails" method="post">
+$FormHelper.HiddenField("wish.Id")
+<table class="detail">
+    <tr>
+        <td>Name</td>
+        <td>$FormHelper.TextField("wish.Description")</td>
+    </tr>
+<!--    <tr>
+        <td>Hyperlink</td>
+        <td>$FormHelper.TextField("wish.Url")</td>
+    </tr>
+-->    <tr>
+        <td>Price</td>
+        <td>$FormHelper.TextField("wish.Price")</td>
+    </tr>
+</table>
+<div class="operations">
+    <input type="submit" value="Update" />
+    <a href="MyWishes.rails">Cancel</a>
+</div>
+</form>

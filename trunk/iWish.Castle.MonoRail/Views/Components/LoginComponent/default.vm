@@ -1,0 +1,15 @@
+<div id="logout">
+    <a href="../user/myprofile.rails">TestUser</a> - <a href="../user/logout.rails">Log out</a>
+</div>
+
+<span class="menuitem">
+    #blockcomponent(LoginComponent)
+        #login
+            $HtmlHelper.LinkTo("Log In", "Login", "Index")
+        #end
+        #logout
+            $HtmlHelper.LinkTo("Log Out", "Login", "Logout")
+        #end
+    #end
+</span>
+

@@ -1,0 +1,21 @@
+<div class="operations">
+    <a href="mywishes.rails">Cancel</a>
+</div>
+<br />
+<form action="create.rails" method="post">
+    <table class="detail">
+        <tr>
+            <td>Description</td>
+            <td>$FormHelper.TextField("wish.Description")</td>
+        </tr>
+        <tr>
+            <td>Hyperlink</td>
+            <td>$FormHelper.TextField("wish.Url")</td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>$FormHelper.TextField("wish.Price")</td>
+        </tr>
+    </table>
+    <input type="submit" value="Create" />
+</form>
