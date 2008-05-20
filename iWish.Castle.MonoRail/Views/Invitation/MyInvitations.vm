@@ -1,0 +1,26 @@
+<table class="list">
+    <thead>
+        <th colspan="5">You have been invited by:</th>
+    </thead>
+    <tr>
+        <td>Batman</td>
+        <td>Nicolas</td>
+        <td>Grootjans</td>
+        <td><a href="AcceptInvitation.rails?InvitationId=1">Accept</a></td>
+        <td><a href="DeclineInvitation.rails?InvitationId=1">Decline</a></td>
+    </tr>
+    <tr>
+        <td>Mega Mindy</td>
+        <td>Frédérique</td>
+        <td>Grootjans</td>
+        <td><a href="AcceptInvitation.rails?InvitationId=1">Accept</a></td>
+        <td><a href="DeclineInvitation.rails?InvitationId=1">Decline</a></td>
+    </tr>
+    <tr>
+        <td>Thrall</td>
+        <td>Sébastien</td>
+        <td>Grootjans</td>
+        <td><a href="AcceptInvitation.rails?InvitationId=1">Accept</a></td>
+        <td><a href="DeclineInvitation.rails?InvitationId=1">Decline</a></td>
+    </tr>
+</table>

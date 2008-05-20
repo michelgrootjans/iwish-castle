@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iWish.Castle.MonoRail", "iWish.Castle.MonoRail\iWish.Castle.MonoRail.csproj", "{218422C8-966A-4C15-9B38-7B68B7E99921}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iWish.Castle.MonoRail.Tests", "iWish.Castle.MonoRail.Tests\iWish.Castle.MonoRail.Tests.csproj", "{1EDF79AF-1CD9-4E41-8867-1F207DB4F76B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iWish.Castle.ActiveRecord", "iWish.Castle.ActiveRecord\iWish.Castle.ActiveRecord.csproj", "{45F83352-DB44-4EDC-A333-EFE97627C973}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iWish.Castle.ActiveRecord.Tests", "iWish.Castle.ActiveRecord.Tests\iWish.Castle.ActiveRecord.Tests.csproj", "{165CDDFB-5215-4693-B6C6-0075E4E00822}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8598CD61-672C-4E65-949C-6E1464321538}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		lib\Castle.ActiveRecord.dll = lib\Castle.ActiveRecord.dll
+		lib\Castle.Components.Common.EmailSender.dll = lib\Castle.Components.Common.EmailSender.dll
+		lib\Castle.MonoRail.Framework.dll = lib\Castle.MonoRail.Framework.dll
+		lib\Castle.MonoRail.Framework.Views.NVelocity.dll = lib\Castle.MonoRail.Framework.Views.NVelocity.dll
+		lib\Castle.MonoRail.TestSupport.dll = lib\Castle.MonoRail.TestSupport.dll
+		lib\NHibernate.dll = lib\NHibernate.dll
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+		lib\NVelocity.dll = lib\NVelocity.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218422C8-966A-4C15-9B38-7B68B7E99921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218422C8-966A-4C15-9B38-7B68B7E99921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218422C8-966A-4C15-9B38-7B68B7E99921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218422C8-966A-4C15-9B38-7B68B7E99921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDF79AF-1CD9-4E41-8867-1F207DB4F76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDF79AF-1CD9-4E41-8867-1F207DB4F76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDF79AF-1CD9-4E41-8867-1F207DB4F76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDF79AF-1CD9-4E41-8867-1F207DB4F76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F83352-DB44-4EDC-A333-EFE97627C973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F83352-DB44-4EDC-A333-EFE97627C973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F83352-DB44-4EDC-A333-EFE97627C973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F83352-DB44-4EDC-A333-EFE97627C973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165CDDFB-5215-4693-B6C6-0075E4E00822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165CDDFB-5215-4693-B6C6-0075E4E00822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165CDDFB-5215-4693-B6C6-0075E4E00822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165CDDFB-5215-4693-B6C6-0075E4E00822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

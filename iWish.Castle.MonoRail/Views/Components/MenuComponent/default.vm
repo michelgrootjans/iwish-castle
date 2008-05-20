@@ -1,0 +1,19 @@
+<div id="menu">
+    <table>
+        <tr>
+            <td><a href="../home/headlines.rails">Headlines</a></td>
+        </tr>
+        <tr>
+            <td><a href="../wish/mywishes.rails">My Wishes</a></td>
+        </tr>
+        <tr>
+            <td><a href="../Friend/list.rails">My Friends</a></td>
+        </tr>
+        <tr>
+            <td><a href="../Invitation/MyInvitations.rails">Invitations</a></td>
+        </tr>
+        <tr>
+            <td><a href="../User/MyProfile.rails">My Profile</a></td>
+        </tr>
+    </table>
+</div>

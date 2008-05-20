@@ -1,0 +1,98 @@
+body
+{
+	background-color: White;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+#header
+{
+	font-size: 2em;
+}
+
+#logout
+{
+}
+
+#message
+{
+	background-color: Yellow;
+}
+
+#error
+{
+	color: Red;
+}
+
+#menu 
+{
+	float: left;
+	width: 150px;
+}
+
+#content
+{
+	margin-left:150px;
+}
+
+#footer
+{
+}
+
+#Headline
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #c3d9ff;
+}
+
+#SubHeadline
+{
+}
+
+#SubHeadline .list
+{
+}
+
+.operations
+{
+	background-color: #e0ecff;
+}
+
+.list
+{
+	width: 100%;
+	background-color: #c3d9ff;
+	border-width: 3px;
+	border-color: Blue;
+	padding: 5px;
+	margin: 5px;
+}
+
+.list th
+{
+	text-align: left;
+}
+
+.list tr
+{
+}
+
+.EvenRow
+{
+	background-color: #f9f9f9;
+}
+
+.OddRow
+{
+	background-color: White;
+}
+
+.detail
+{
+	background-color: #c3d9ff;
+	border: 3px;
+	border-color: Blue;
+	padding: 5px;
+	margin: 5px;
+}

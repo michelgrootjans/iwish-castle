@@ -1,0 +1,19 @@
+<div class="operations">
+    <a href="edit.rails?wishId=$wish.Id">Change my wish ...</a>
+</div>
+<br />
+$FormHelper.HiddenField("wish.Id")
+<table class="detail">
+<tr>
+    <td>Name</td>
+    <td>$wish.Description</td>
+</tr>
+<tr>
+    <td>Hyperlink</td>
+    <td>$wish.Url</td>
+</tr>
+    <tr>
+        <td>Price</td>
+        <td>$wish.ExpectdPrice €</td>
+    </tr>
+</table>

@@ -1,0 +1,33 @@
+<div class="operations">
+    <a href="new.rails">Make a wish...</a>
+</div>
+<br />
+#foreach($wish in $wishes)
+#beforeall
+<table class="list">
+    <thead>
+        <th>Name</th>
+        <th>Expected price</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </thead>
+#before
+       <tr
+#odd
+       class="OddRow">
+#even
+       class="EvenRow">
+#each
+        <td><a href="$wish.Url" target="_blank">$wish.Description</a></td>
+        <td>$wish.Price &#8364;</td>
+        <td><a href="edit.rails?id=$wish.Id">edit</a></td>
+        <td><a href="delete.rails?id=$wish.Id" onclick="javascript:return confirm('Are you sure you want to delete $wish.Description ?')">delete</a></td>
+        <td><a href="http://www.liedssen.be/portals/1/artilium.wmv">Hela</a></td>
+#after
+       </tr>
+#between
+#afterall
+       </table>
+#nodata
+       You don't have any wishes yet
+#end

@@ -1,0 +1,18 @@
+<table class="list">
+    <thead>
+        <th>Name</th>
+        <th>Expected price</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </thead>
+    <tr>
+        <td><a href="http://www.thinkgeek.com/geektoys/warfare/69de/" target="_blank">Jedi lightsabre</a></td>
+        <td>100 &#8364;</td>
+        <td><a href="reserve.rails?WishId=1">Reserve</a></td>
+    </tr>
+    <tr>
+        <td><a href="http://www.thinkgeek.com/tshirts/generic/2891/" target="_blank">Caffeine T-Shirt</a></td>
+        <td>15 &euro;</td>
+        <td><a href="reserve.rails?WishId=2">Reserve</a> </td>
+    </tr>
+</table>

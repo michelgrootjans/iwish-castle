@@ -1,0 +1,13 @@
+<div id="Headline">
+You have received <a href="../invitation/myinvitations.rails">3 new invitations</a>.
+</div>
+<div id="SubHeadline">
+<table class="list">
+<thead>
+<th>You also have the following items that need your attention:</th>
+</thead>
+<tr>
+<td>You have reserved <a href="../friend/shoppinglist.rails">5 wishes</a> from your friends. Don't forget to buy and give them.</td>
+</tr>
+</table>
+</div>
